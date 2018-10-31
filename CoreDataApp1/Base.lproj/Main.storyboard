@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Thêm"/>
                                 <connections>
-                                    <action selector="btn_Them:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcm-az-WLc"/>
+                                    <action selector="handleAddButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KiM-vS-AQ2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qab-xI-wCh">
@@ -45,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tìm"/>
                                 <connections>
-                                    <action selector="btn_Tim:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iQQ-vB-KFQ"/>
+                                    <action selector="handleSearchButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elM-4q-1Qj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thông tin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U33-XN-yLJ">
@@ -60,9 +60,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="lbl_Info" destination="U33-XN-yLJ" id="ZCQ-AQ-zz2"/>
-                        <outlet property="txt_Que" destination="w4N-og-hIj" id="l67-CK-2yV"/>
-                        <outlet property="txt_Ten" destination="Oc4-F6-Ocz" id="jSQ-fB-hZB"/>
+                        <outlet property="lblInfo" destination="U33-XN-yLJ" id="qMi-Yl-IBs"/>
+                        <outlet property="txtQue" destination="w4N-og-hIj" id="ck3-mv-z3g"/>
+                        <outlet property="txtTen" destination="Oc4-F6-Ocz" id="M8g-GR-AZ3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
